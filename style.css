@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h2 {
+  color: orangered;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(1, 43, 43);
+}
+
+label {
+  color: orangered;
+}
+
+button {
+  padding: 5px 30px;
+  margin-top: 10px;
+  background-color: gray;
+  border: 1px solid #2596be;
+}
+
+button:hover {
+  background-color: #2596be;
+  color: #fff;
+}
+
+.formulario {
+  height: auto;
+  margin: 0px 0px;
+  padding: 5px 10px 50px 10px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 6px;
+}
+
+form {
+  width: auto;
+  margin: 10px 100px;
+}
+
+.cabecalho {
+  color: #2596be;
+  padding: 10px;
+  text-align: center;
+}
+.campo {
+  padding: 5px;
+  width: 100%;
+}
+
+.campo input:focus {
+  outline: none;
+}
+
+.campo select {
+  width: 100%;
+  border: 1px solid #2596be;
+  height: 30px;
+  background-color: #fff;
+}
+
+.campo select:focus {
+  outline: none;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultado {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #2596be;
+  display: block;
+}
